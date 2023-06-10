@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FF14</title>
+</head>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    .shell{
+        height: 100vh;
+        overflow-x: hidden;
+        perspective: 3px;
+    }
+    .shell div{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-style: 30px;
+        letter-spacing: 2px;
+    }
+    .image{
+        transform: translateZ(-1px) scale(1.6);
+        background-size: cover;
+        height: 100vh;
+        z-index: -1;
+    }
+    .text{
+        height: 50vh;
+        background-color: #fff;
+    }
+    .text h1{
+        color: #000;
+    }
+    .heading{
+        z-index: -1;
+        transform: translateY(-30vh) translateZ(1px);
+        color: #fff;
+        font-size: 30px;
+    }
+</style>
+
+<body>
+    <div class="shell">
+        <div class="image" style="background-image: url('https://img2.baidu.com/it/u=2157356275,3547065528&fm=253&fmt=auto&app=138&f=JPEG?w=906&h=500');"></div>
+        <div class="heading">
+            <h1>欢迎来到艾欧泽亚</h1>
+        </div>
+        <div class="text">
+            <h1>你的旅途是一个令人满意的旅途吗？</h1>
+        </div>
+
+        <div class="image" style="background-image: url('https://img0.baidu.com/it/u=885604492,3910029593&fm=253&fmt=auto&app=138&f=JPEG?w=889&h=500');"></div>
+        <div class="heading">
+            <h1>英雄……可不适合悲哀的表情</h1>
+        </div>
+        <div class="text">
+            <h1>你果然，还是笑起来，最棒了</h1>
+        </div>
+
+        <div class="image" style="background-image: url('https://img2.baidu.com/it/u=620634719,1224470933&fm=253&fmt=auto&app=138&f=JPEG?w=889&h=500');"></div>
+        <div class="heading">
+            <h1>我们的旅途还远没有结束！</h1>
+        </div>
+        <div class="text">
+            <h1>一路走到这里……你有什么感觉……有觉得，开心吗？</h1>
+        </div>
+
+        <div class="image" style="background-image: url('https://i0.hdslb.com/bfs/archive/daefca9d2a20e3370d213266433e7a3fd6a786f0.jpg');"></div>
+        <div class="heading">
+            <h1>Come on,stranger.</h1>
+        </div>
+    </div>
+</body>
+
+</html>

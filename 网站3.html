@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>明日方舟</title>
+</head>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    .shell{
+        height: 100vh;
+        overflow-x: hidden;
+        perspective: 3px;
+    }
+    .shell div{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-style: 30px;
+        letter-spacing: 2px;
+    }
+    .image{
+        transform: translateZ(-1px) scale(1.6);
+        background-size: cover;
+        height: 100vh;
+        z-index: -1;
+    }
+    .text{
+        height: 50vh;
+        background-color: #fff;
+    }
+    .text h1{
+        color: #000;
+    }
+    .heading{
+        z-index: -1;
+        transform: translateY(-30vh) translateZ(1px);
+        color: #fff;
+        font-size: 30px;
+    }
+</style>
+
+<body>
+    <div class="shell">
+        <div class="image" style="background-image: url('https://i0.hdslb.com/bfs/article/53624ff86bd2d676d4a90d716fec1adde1304a60.png');"></div>
+        <div class="heading">
+            <h1>欢迎加入罗德岛</h1>
+        </div>
+        <div class="text">
+            <h1>如果用温情和善良去渲染战争，那么战争只会变得更加危险。</h1>
+        </div>
+
+        <div class="image" style="background-image: url('https://img0.baidu.com/it/u=1173234926,956337&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=500');"></div>
+        <div class="heading">
+            <h1>正义与否，与人数多寡又有何干？</h1>
+        </div>
+        <div class="text">
+            <h1>当你经历漫长黑暗，终于浮出海面，睁开眼的刹那，灿烂的星空滴落眼眶，无垠波浪拂过面颊，眼泪和家的味道，都是咸的。</h1>
+        </div>
+
+        <div class="image" style="background-image: url('https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fblog%2F202104%2F06%2F20210406232015_59d9d.jpeg&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1688865850&t=af5e0a36d8a4a6bb8fb7fa3632d9739b');"></div>
+        <div class="heading">
+            <h1>面对天灾，我们并非无计可施！</h1>
+        </div>
+        <div class="text">
+            <h1>命运早已不再是可以被谈论的范畴，只能谋求一场盛大的解脱。</h1>
+        </div>
+
+        <div class="image" style="background-image: url('https://i1.hdslb.com/bfs/archive/648fa4c5bd889bafe14f270b03642b72a44f506c.jpg');"></div>
+        <div class="heading">
+            <h1>Come on,stranger.</h1>
+        </div>
+    </div>
+</body>
+
+</html>
